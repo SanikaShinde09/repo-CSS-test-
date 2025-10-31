@@ -1,0 +1,149 @@
+<html>
+    <head>
+    <style>
+           p.dotted {border-style: dotted;}
+           p.dashed {border-style: dashed;}
+           p.solid {border-style: solid;}
+           p.double {border-style: double;}
+           p.groove {border-style: groove;}
+           p.ridge  {border-style: ridge;}
+           p.inset  {border-style: inset;}
+           p.outset {border-style: outset;}
+           p.none  {border-style: none;}
+           p.hidden {border-style: hidden;}
+           p.mix {border-style: dotted dashed solid double;}
+         </style>
+    </head>
+<body>
+    
+    <h2>The border-style Property</h2>
+
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">A inset border.</p>
+    <p class="outset">A outset border.</p>
+    <p class="none">A none border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mix border.</p>
+
+
+    <h2>border-width</h2>
+    <style>
+        p.one { 
+            border-style: solid;
+            border-width:5px ;
+            
+        }
+         
+        .two{
+            border-style: solid;
+            border-width: medium;
+            
+        }
+
+        .three{
+            border-style: dotted;
+            border-width: 2px;
+        }
+         
+        .four{
+            border-style: dotted;
+            border-width: thick;
+        }
+
+        .five{
+            border-style: double;
+            border-width: 15px;
+        }
+    </style>
+
+    <p class="one">some text</p>
+    <p class="two">some text</p>
+    <p class="three">some text</p>
+    <p class="four">some text</p>
+    <p class="five">some text</p>
+
+    <h3>The border colour Property</h3>
+    <style>
+        p.six { 
+            border-style: outset;
+            border-color: brown;
+        }
+         
+        .seven{
+            border-style: inset;
+            border-color: darkmagenta;
+            
+        }
+
+        .eight{
+            border-style: dotted;
+            border-color: deeppink;
+        }
+
+        .nine{
+            border-style: dotted solid double;
+            border-color: rgb(194, 114, 154);
+        }
+    </style>
+    <p class="six">the outset brown colour</p>
+    <p class="seven">the inset darkmagenta colour</p>
+    <p class="eight">the dotted deeppink colour</p>
+    <p class="nine">the dotted solid double hotpink colour</p>
+
+    <h2>The border sides</h2>
+    <style>
+        p{
+            border-top-style: dotted;
+            border-right-color: solid;
+            border-bottom-style: dotted;
+            border-left-style: solid;
+        }
+
+        p{
+           border-style: dotted solid double;
+        }
+        p{
+            border-right: dotted solid;
+        }
+    </style>
+
+    <p> 2 different border styles</p>
+    <p> 3 different border styles</p>
+    <p> 1 border styles</p>
+
+
+    <h2> Rounded border </h2>
+    <style>
+        .normal{
+            border: 2px solid red;
+            padding: 5px;
+        }
+        .round1{
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .round2{
+                border: 2px solid red;
+                border-radius: 8px;
+                padding: 5px;
+        }
+        .round3{
+            border: 2px solid red;
+            border-radius: 12px;
+            padding: 5px;
+        }
+    </style>
+
+    <p class="normal">The normal border</p>
+    <p class="round1">The round border</p>
+    <p class="round2">The rounder border</p>
+    <p class="round3">The roundest border</p>
+</body>
+</html>

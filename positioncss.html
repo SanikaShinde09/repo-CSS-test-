@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <style>
+        div.static {
+            position: static;
+            border: 3px solid palevioletred;
+        }
+
+        div.relative {
+            position: relative;
+            left: 30px;
+            border: 3px solid purple;
+        }
+
+        div.fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            height: 200px;
+            border: 3px solid rgb(216, 197, 112);
+        }
+
+       
+    </style>
+</head>
+
+<body>
+
+    <h2>Using position: static;</h2>
+
+    <p>
+    <p>An element with position: static; is always positioned according to the normal flow of the page:</p>
+
+    <div class="static">
+        this div is static position: static;
+    </div>
+
+    <h2>Using position: relative;</h2>
+    <p>An element with position: relative; is always positioned according to the normal flow of the page:</p>
+
+    <div class="relative">
+        This div is relative position: relative;
+    </div>
+    <h2>Using position: fixed;</h2>
+    <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same
+        place even if the page is scrolled:</p>
+
+    <div class="fixed">
+        This div is fixed position: fixed;
+    </div>
+</body>
+
+</html>
