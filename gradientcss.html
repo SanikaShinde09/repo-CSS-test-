@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style>
+            #grad1{
+                height: 200px;
+                background-color: red;
+                background-image: linear-gradient(to bottom,red,yellow);
+            }
+
+               #grad{
+                height: 200px;
+                background-color: rgba(255, 0, 0, 0.233);
+                background-image: linear-gradient(to right,red,yellow);
+               }
+               #grad2{
+                height: 200px;
+                background-color: blueviolet;
+                background-image: linear-gradient(to bottom right,red,yellow);
+               }
+               #grad4{
+                height: 100px;
+                background-color: red;
+                background-image: linear-gradient(0dge,red,yellow);
+               }
+               #grad5{
+                height: 100px;
+                background-color: red;
+                background-image: linear-gradient(90deg,red,yellow);
+               }
+               #grad6{
+                height: 100px;
+                background-color: red;
+                background-image: linear-gradient(180deg,red,yellow);
+               }
+               #grad7{
+                height: 100px;
+                background-color: red;
+                background-image: linear-gradient(-90deg,purple,yellow);
+               }
+               #grad9{
+                height: 200px;
+                background-color: red;
+                background-image: linear-gradient(red,yellow,green);
+               }
+               #grad10{
+                height: 200px;
+                background-color: red;
+                background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+               }
+               #grad11{
+                height: 200px;
+                background-color: red;
+                background-image: linear-gradient(red 10%, green 85%, blue 90%);
+               }
+        </style>
+    </head>
+    <body>
+        
+        <h2>Linear Gradient -Top to bottom</h2>
+        <p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+
+        <div id="grad1"></div>
+
+
+        <h2>linear gradient -left to right</h2>
+        <p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+
+        <div id="grad"></div>
+
+        <h2>linear gradient -Diagonal</h2>
+        <p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+
+          <div id="grad2"></div>
+
+          <h1>linear Gradient - using different angles:</h1>
+
+           <div id="grad4" style="text-align: center;">0deg</div><br>
+           <div id="grad5" style="text-align: center;">90deg</div><br>
+           <div id="grad6" style="text-align: center;">180deg</div><br>
+           <div id="grad7" style="text-align: center;">-90deg </div><br>
+
+
+           <h1>linear gradient -multiple color stops </h1>
+           <p><strong>Note:</strong> Color stops are spaced evenly when no percents are specified.</p>
+
+           <h2>3 color stops (evenly spaced)</h2>
+           <div id="grad9"></div>
+
+           <h2>7 color stops (evenly spaced)</h2>
+           <div id="grad10"></div>
+
+           <h2>3 color stops (not evenly spaced)</h2>
+            <div id="grad11"></div>
+                
+    </body>
+</html>

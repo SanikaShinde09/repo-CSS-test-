@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style>
+           .form{
+            background-color: white;
+            border: 1px solid;
+            text-align: center;
+            width: 300px;
+            padding: 10px;
+           }
+           h2{
+            border-top: 3px solid orange;
+            padding: 10px;
+           }
+           input{
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 10px;
+            width: 93%;
+           }
+           .name{
+              display: flex;
+              align-items: 20px;
+           }
+         select{
+            border-radius: 5px;
+            height: 40px;
+            width: 100%;
+         }
+         button{
+            border-radius: 5px;
+            height: 40px;
+            width: 100%;
+            background-color: orange;
+            color: white;
+         }
+         .gender{
+            display: flex;
+            justify-content: 10px;
+            margin: 10px 0;
+         }
+        
+        </style>
+    </head>
+    <body>
+        
+        <form>
+            <div class="form">
+                <h2>Responsive Registration
+                    Form
+                </h2>
+                   <div class="input">
+                <label><i class="fa fa-envelope"></i></label>
+                <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+                <label><i class="fa fa-lock"></i></label>
+                 <input type="text" id="Password" name="Password" placeholder="Password" required><br><br>
+
+                 <label><i class="fa fa-lock"></i></label>
+                 <input type="text" id="Re-type Password" name="Re-type Password" placeholder="Re-type Password" required><br><br>
+</div>
+                 <div class="name">
+                    <label><i class="fa fa-user"></i></label>
+                    <input type="text" id="First Name" name="First Name" placeholder="First Name" required>
+
+                    <label><i class="fa fa-user"></i></label>
+                    <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" required>
+                 </div><br>
+
+                 <div class="gender">
+                <input type="radio" id="Male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="Female">
+                <label for="Female">Female</label></div><br><br>
+
+                <select name="country" id="country">
+                    <option value="">Select a country</option>
+                    <option value="India">India</option>
+                    <option value="australia">australia</option>
+                    <option value="canada">canada</option>
+                </select><br><br>
+               
+                <div class="checkbox">
+                <input type="checkbox" id="I agree with terms and conditions" name="I agree with terms and conditions">
+                <label for="c">I agree with terms and conditions</label><br><br>
+                <input type="checkbox" id="I want to receive the Newsletter" name="I want to receive the Newsletter">
+                <label for="d">I want to receive the Newsletter</label></div><br><br> 
+
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </body>
+</html>
+

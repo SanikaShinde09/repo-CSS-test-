@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .img {
+            float: left;
+            width: 33.33%;
+            padding: 50px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Image side by side</h2>
+    <p>float image side by side</p>
+
+    <div class="clearfix">
+        <div class="image">
+            <img src="./image/img_5terre_wide.jpg" alt="italy" style="width: 100%;">
+        </div>
+        <div class="image">
+            <img src="./image/img_forest.jpg" alt="forest" style="width: 100%;">
+        </div>
+        <div class="image">
+            <img src="./image/img_mountains.jpg" alt="mountains" style="width: 100%;">
+        </div>
+    </div>
+
+</body>
+
+</html>
